@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, "Helvetica Neue" , Helvetica, sans-serif;
+    
+    line-height: 34px;
+    color: #777;
+    background-color: #f2f2f2;
+  }
+  .header {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  
+  }
+  
+  #headerbig {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    background-color: white;
+  }
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman" , serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  nav {
+    float: right;
+    margin-top: 25px;
+  
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 15px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 960px;
+    padding-top: 120px;
+    padding-left: 145px;
+    padding-right: 130px;
+    align-items: flex-start;
+    margin: 0 auto;
+  }
+  .about_me {
+    flex: 1;
+    margin-right: 50px;
+    background-color: white;
+    padding-left: 4px;
+    padding: 10px;
+  }
+  #about h2 {
+    color: #4aaaa5;
+  }
+  img {
+    float: left;
+    padding: 10px;
+  
+  }
+  .social {
+    display: flex;
+  }
+  .connect {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+  }
+  .connect h3 {
+    text-align: center;
+    color: #4aaaa5;
+  }
+  .one {
+    display: flex;
+  }
+
+
+  
+  .footer {
+      text-align: center
+  }
+  
+  
+  
+ 
+  
+  .form_one {
+    display: flex;
+  }
+  .form_one input {
+    flex: 1;
+  }
+  .button {
+      background-color: #4aaaa5;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  .image_one {
+    display: box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+  }
+  
+  .text {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 150px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-left: 100px;
+    padding-right: 93px;
+  
+  }
+  
